@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-image: url(https://s1.1zoom.me/big0/582/Seasons_Winter_Forests_Roads_Snow_Trees_540763_1280x853.jpg);
+    background-size: cover;
+}
+
+.parent {
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(199, 198, 198, 0.664);
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30%;
+}
+
+.content {
+    text-align: center;
+}
+
+.perfil,
+.icons,
+.fonte {
+    padding: 15px 15px;
+}
+
+.perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 250px;
+    border: 4px solid rgb(36, 5, 107);
+}
+
+.informacoes p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(12, 10, 10);
+}
+
+.informacoes p a {
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(46, 7, 7);
+}
+
+.informacoes p a:hover {
+    transition: all 1.0s ease 0s;
+    color: rgb(56, 34, 145);
+    font-size: 21px;
+}
+
+a,
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+.sobrenome {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.sobrenome {
+    color: gray;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+section .icons {
+    display: inline;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icons a img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.icons a img:hover {
+    transition: all 1.7s ease 0s;
+    height: 23px;
+    width: 23px;
+}
