@@ -2,4 +2,4 @@
 
 Acesse o site pelo link a baixo👇🏻
 
-https://kaylany-paulus.github.io/kaylanypaulus/
+https://kaylanypaulus.github.io/kaylany-paulus/
